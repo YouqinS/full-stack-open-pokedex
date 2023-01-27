@@ -3,7 +3,7 @@ name: Health Check
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '20 1 * * *'
+    - cron:  '30 * * * *'
 jobs:
   health_check:
     runs-on: ubuntu-20.04
